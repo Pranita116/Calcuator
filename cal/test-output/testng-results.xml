@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[This project majorly focus on the employee time sheet]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78755" started-at="2021-04-12T10:37:20 IST" finished-at="2021-04-12T10:38:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78755" started-at="2021-04-12T10:37:20 IST" finished-at="2021-04-12T10:38:39 IST">
+      <class name="test.CalculatorPage">
+        <test-method status="PASS" signature="projectInfo()[pri:0, instance:test.CalculatorPage@76b0bfab]" name="projectInfo" is-config="true" duration-ms="22" started-at="2021-04-12T10:37:20 IST" finished-at="2021-04-12T10:37:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[This project majorly focus on the employee time sheet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- projectInfo -->
+        <test-method status="PASS" signature="setPro()[pri:0, instance:test.CalculatorPage@76b0bfab]" name="setPro" is-config="true" duration-ms="0" started-at="2021-04-12T10:37:20 IST" finished-at="2021-04-12T10:37:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPro -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:test.CalculatorPage@76b0bfab]" name="launchApp" is-config="true" duration-ms="42976" started-at="2021-04-12T10:37:20 IST" finished-at="2021-04-12T10:38:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="calculation()[pri:0, instance:test.CalculatorPage@76b0bfab]" name="calculation" duration-ms="15951" started-at="2021-04-12T10:38:03 IST" finished-at="2021-04-12T10:38:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.CalculatorPage@76b0bfab]" name="tearDown" is-config="true" duration-ms="19793" started-at="2021-04-12T10:38:19 IST" finished-at="2021-04-12T10:38:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=calculation status=SUCCESS method=CalculatorPage.calculation()[pri:0, instance:test.CalculatorPage@76b0bfab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="reportGeneration()[pri:0, instance:test.CalculatorPage@76b0bfab]" name="reportGeneration" is-config="true" duration-ms="0" started-at="2021-04-12T10:38:39 IST" finished-at="2021-04-12T10:38:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGeneration -->
+      </class> <!-- test.CalculatorPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
